@@ -1,13 +1,13 @@
 require 'sinatra'
 
 get '/' do
-erb :home
+	erb :home
 end
 
 get '/about' do
-erb :about
+	erb :about
 end
 
 get '/contact' do
-erb :contact
+	erb :contact
 end
